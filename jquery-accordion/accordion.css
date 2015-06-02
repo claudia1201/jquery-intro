@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+.container{
+	
+	margin: 10%;
+	font-family: Helvetica;
+}
+
+
+
+.selection{
+	border: 1px solid #00B4C3;
+	background-color: #00C6D6;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px; 
+
+}
+.content{
+	
+	display:none;
+	border: 1px solid #00B4C3;
+	padding: 20px;
+	
+}
+
+.selection.active{
+	background-color: #00B4C3;
+
+}
+.content.active {
+  display: block
+}
